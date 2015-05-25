@@ -10,6 +10,7 @@ APP_LDFLAGS=-lm
 
 APP_SRC= \
   src/timer.c \
+  src/radio.c \
   src/main.c
 
 APP_SRC+=$(IMAGES_C)
