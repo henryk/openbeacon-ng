@@ -5,13 +5,15 @@ VARIANT=xxAC
 DEBUG=-g
 OPTIM=-Os -mword-relocations
 
-APP_CFLAGS=-Iinc -std=gnu99 -fgnu89-inline -D__USE_CMSIS
+APP_COMMON_CFLAGS=-Iinc -D__USE_CMSIS
+APP_CFLAGS=-std=gnu99 -fgnu89-inline
 APP_LDFLAGS=-lm
 
 APP_SRC= \
   src/timer.c \
   src/radio.c \
-  src/main.c
+  src/main.c \
+  openmili/PL1167_nRF24.cpp
 
 APP_SRC+=$(IMAGES_C)
 

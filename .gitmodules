@@ -1,0 +1,3 @@
+[submodule "firmware/nRF51/pca10031-openmili/openmili"]
+	path = firmware/nRF51/pca10031-openmili/openmili
+	url = https://github.com/henryk/openmili/
