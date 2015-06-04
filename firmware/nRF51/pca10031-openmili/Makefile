@@ -13,7 +13,8 @@ APP_SRC= \
   src/timer.c \
   src/radio.c \
   src/main.c \
-  openmili/PL1167_nRF24.cpp
+  openmili/MiLightRadio.cpp \
+  openmili/PL1167_nRF51.cpp
 
 APP_SRC+=$(IMAGES_C)
 
